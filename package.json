@@ -1,0 +1,26 @@
+{
+  "name": "backend-tinder-clone",
+  "version": "1.0.0",
+  "description": "This is backend for clone tinder app",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel src --out-dir build",
+    "dev":"nodemon src/index --exec babel-node",
+    "start": "node src/index.js"  
+  },
+  "author": "Allan Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "nodemon": "^2.0.6"
+  }
+}
